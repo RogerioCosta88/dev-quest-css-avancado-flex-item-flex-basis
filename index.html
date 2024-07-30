@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Flex-Item: Flex-Basis</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Flex-basis</h1>
+    <p>O <strong>flex-basis</strong> faz com que todos os itens tenhas o mesmo tamanho, indepêndentemente se eles possuem conteúdos de tamanhos diferentes. O valor padrão do <strong>flex-basis</strong> é <strong>auto</strong>.</p>
+
+    <section>
+        <h2>Basis: auto;</h2>
+        <div class="container basis">
+            <div class="item basis-auto grow">Lorem 1</div>
+            <div class="item basis-auto grow">Lorem 123 456</div>
+            <div class="item basis-auto grow">Lorem dasdsdsadasd</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Basis: 0;</h2>
+        <div class="container basis">
+            <div class="item basis-0 grow">Lorem 1</div>
+            <div class="item basis-0 grow">Lorem 123 456</div>
+            <div class="item basis-0 grow">Lorem dasdsdsadasd</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Basis: 100px;</h2>
+        <div class="container basis">
+            <div class="item basis-px grow">Lorem 1</div>
+            <div class="item basis-px grow">Lorem 123 456</div>
+            <div class="item basis-px grow">Lorem dasdsdsadasd</div>
+        </div>
+    </section>
+
+</body>
+</html>
